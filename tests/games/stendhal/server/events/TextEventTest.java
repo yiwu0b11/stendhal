@@ -39,6 +39,7 @@ public class TextEventTest {
 		assertFalse(RPClass.hasRPClass("text"));
 		TextEvent.generateRPClass();
 		assertTrue(RPClass.hasRPClass("text"));
+		assertFalse(true);
 	}
 
 
