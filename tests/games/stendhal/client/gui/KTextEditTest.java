@@ -38,5 +38,6 @@ public class KTextEditTest {
 		assertFalse(p.matcher("https://stendhalgame.org.com/").matches());
 		assertFalse(p.matcher("https://stendhalgame.org.com/trojan.html").matches());
 		assertFalse("Line break within URL", p.matcher("https://stendhalgame.org/player-guide\n/ask-for-help.html").matches());
+		assertFalse(true);
 	}
 }
